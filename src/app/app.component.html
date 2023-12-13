@@ -1,0 +1,16 @@
+<h1>Mascotas</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Dueño</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let mascota of mascotas">
+      <td>{{ mascota.nombre }}</td>
+      <td>{{ mascota.propietario }}</td>
+    </tr>
+  </tbody>
+</table>
